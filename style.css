@@ -43,7 +43,7 @@ p1 {
     position:absolute;
     top: 20%;
     left: 10%;
-    font-size: 40px;
+    font-size: 30px;
     font-style: italic;
 }
 
@@ -112,7 +112,6 @@ img {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 50px;
 }
 
 .project-container {
@@ -124,21 +123,26 @@ img {
 }
 
 
+.project-title {
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+}
+
 .project1 {
-    width: 60%;
+    width: 70%;
     margin: 20px;
- }
+}
  
 
 .project2 {
-    width: 45% ;
+    width: 35% ;
     margin: 20px;
-  }
-
+ }
 
 
 .project3 {
-    width: 45%;
+    width: 35%;
     margin:20px; 
 }
  
@@ -157,18 +161,17 @@ img {
     background-color: var(--black);
 }
    
-.project-title {
-    text-align: center;
-    font-style: italic;
-    padding: 5px;
-}
 
-  @media screen and (max-width: 600px) {
-        main,
+
+  @media screen and (max-width: 768px) {
         nav,
+        main,
+        .project1,
+        .project2,
+        .project3,
+        .introduction,
         footer{
           flex-direction: column;
           width: 100%;
-        }
+    }
 }
-    
