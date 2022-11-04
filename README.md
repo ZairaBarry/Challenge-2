@@ -20,6 +20,8 @@ To use this page, you can review the code and styles in each section. For sugges
 ![screenshot of my portfolio page](assets/images/Screen1.png)
 ![screenshot of my portfolio page](assets/images/page_screen2.png)
 
+https://zairabarry.github.io/ZI_Magic_Portfolio/
+
 
 ## Credits
 
